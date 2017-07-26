@@ -2,32 +2,32 @@
 
 ### 工作流程
 
-#### 创建或拉取
+####1. 创建或拉取
 * git init
 * git clone url
 
-#### 切分支
+####2. 切分支
 * git checkout -b dev
 
 相当于2个命令，git branch dev，git checkout dev
 先切分支，再干活
 
-#### 添加文件修改
+####3. 添加文件修改
 * git add filepath
 * git add -p
 
 不建议用git add .
 
-#### 提交到本地
+####4. 提交到本地
 * git commit -m 'xxxx'
 
-### 推送到远端分支
+####5. 推送到远端分支
 * git push origin dev
 
-#### 发起合并请求
+####6. 发起合并请求
 在gitlab上操作，把url发给review的人
 
-#### 处理冲突
+####7. 处理冲突
 假设有冲突，gitlab上会有相应提示
 需在本地处理完冲突后，再次推到gitlab上的分支上，才会提示可自动合并
 
