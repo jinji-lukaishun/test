@@ -50,8 +50,8 @@
 * git reset —hard HEAD^
 
 ## 版本库
-origin master
-.git
-stage
+* origin master
+* .git
+* stage
 
 ## .gitignore
